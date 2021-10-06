@@ -78,19 +78,23 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/pages/destinos/destinos.html">Destinos</a>
+                                <a class="nav-link active" aria-current="page"
+                                    href="/pages/destinos/destinos.html">Destinos</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/pages/promocoes/promocoes.html">Promoções</a>
+                                <a class="nav-link active" aria-current="page"
+                                    href="/pages/promocoes/promocoes.html">Promoções</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/pages/sobre/sobre.html">Sobre Nós</a>
+                                <a class="nav-link active" aria-current="page" href="/pages/sobre/sobre.html">Sobre
+                                    Nós</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/pages/depoimentos/depoimentos.html">Depoimentos</a>
+                                <a class="nav-link active" aria-current="page"
+                                    href="/pages/depoimentos/depoimentos.html">Depoimentos</a>
                             </li>
 
                             <li class="nav-item">
@@ -112,50 +116,153 @@
 
     <main>
 
-        <div class="banner-parallax">
+        <section>
+            <div class="container">
+                <h3>Acesse ou Crie já sua conta</h3>
+                <div class="accordion" id="accordionsection">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button type="button" class="accordion-button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">
+                                Já tenho Conta
+                            </button>
+                        </h3>
+                        <div class="accordion-collapse collapse show" id="collapseOne"
+                            data-bs-parent="#accordionsection">
+                            <div class="accordion-body">
+                                <form>
+                                    <div class="row mb-3">
+                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail3" />
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword3" />
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Login</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button type="button" class="accordion-button btn-login" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo">
+                                Registrar-se
+                            </button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="collapseTwo" data-bs-parent="#accordionsection">
+                            <div class="accordion-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Senha</label>
+                                        <input type="password" class="form-control" id="inputPassword4" />
+                                    </div>
+                                    <div class="col-md-8">
+                                        <label for="inputAddress" class="form-label">Endereço</label>
+                                        <input type="text" class="form-control" id="inputAddress"
+                                            placeholder="R. Vem Viajar" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="inputNumber" class="form-label">Número</label>
+                                        <input type="text" class="form-control" id="inputNumber" />
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="inputAddress2" class="form-label">Bairro</label>
+                                        <input type="text" class="form-control" id="inputAddress2" />
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="inputDetail" class="form-label">Complemento</label>
+                                        <input type="text" class="form-control" id="inputDetail" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">Cidade</label>
+                                        <input type="text" class="form-control" id="inputCity" />
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputState" class="form-label">Estado</label>
+                                        <select id="inputState" class="form-select">
+                                            <option>AC</option>
+                                            <option>AL</option>
+                                            <option>AP</option>
+                                            <option>AM</option>
+                                            <option>BA</option>
+                                            <option>CE</option>
+                                            <option>ES</option>
+                                            <option>GO</option>
+                                            <option>MA</option>
+                                            <option>MT</option>
+                                            <option>MS</option>
+                                            <option>MG</option>
+                                            <option>PA</option>
+                                            <option>PB</option>
+                                            <option>PR</option>
+                                            <option>PE</option>
+                                            <option>PI</option>
+                                            <option>RJ</option>
+                                            <option>RN</option>
+                                            <option>RS</option>
+                                            <option>RO</option>
+                                            <option>RR</option>
+                                            <option>SC</option>
+                                            <option>SP</option>
+                                            <option>SE</option>
+                                            <option>TO</option>
+                                            <option>DF</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="inputZip" class="form-label">CEP</label>
+                                        <input type="text" class="form-control" id="inputZip" />
+                                    </div>
 
-        </div>
+                                    <div class="col-md-12">
 
-        <section class="section-one">
+                                        <legend>Quais continentes gostaria de visitar:</legend>
+                                        <input type="checkbox" id="asia" name="asia" value="asia"
+                                            class="lista-continentes">
+                                        <label for="asia">Asia</label>
+                                        <input type="checkbox" id="america-do-sul" name="america-do-sul"
+                                            value="america-do-sul">
+                                        <label for="america-do-sul" class="lista-continentes">América do Sul</label>
+                                        <input type="checkbox" id="america-do-norte" name="america-do-norte"
+                                            value="america-do-norte">
+                                        <label for="america-do-norte" class="lista-continentes">América do Norte</label>
+                                        <input type="checkbox" id="africa" name="africa" value="africa">
+                                        <label for="africa" class="lista-continentes">África</label>
+                                        <input type="checkbox" id="middle-east" name="middle-east" value="middle-east">
+                                        <label for="middle-east" class="lista-continentes">Oriente médio</label>
+                                        <input type="checkbox" id="europa" name="europa" value="europa">
+                                        <label for="europa" class="lista-continentes">Europa</label>
+                                    </div>
 
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-login">
+                                            Registrar
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="section-two">
-
-        </section>
-
-        <section class="section-three">
-
-        </section>
-
-
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
