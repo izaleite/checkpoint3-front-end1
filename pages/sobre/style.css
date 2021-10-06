@@ -1,6 +1,5 @@
 /*  CSS do HEADER */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
 * {
     margin: 0;
@@ -14,7 +13,7 @@ html {
 }
 
 body {
-    background-color: #FBF7F0;
+    background-color: #f8f9fa;
 }
 
 .d-flex input {
@@ -47,3 +46,38 @@ body {
 }
 
 /*  CSS do Conteudo do Main/Section */
+
+/* Time */
+
+.container h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    user-select: none;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card {
+    object-fit: cover;
+}
+
+.card img:hover {
+    opacity: .7;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .3s ease-in;
+}
+
+.card h5, p {
+    user-select: none;
+}
+
