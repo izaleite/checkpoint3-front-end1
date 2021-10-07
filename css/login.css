@@ -1,0 +1,173 @@
+/*  CSS do HEADER */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.d-flex input {
+    margin: 0 8px;
+}
+
+.d-flex button {
+    margin: 0 8px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.d-flex button:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+    transition: .5s ease-in;
+}
+
+.offcanvas-body a {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.offcanvas-body a:hover {
+    opacity: .8;
+}
+
+.offcanvas-header h {
+    user-select: none;
+}
+
+/*  CSS do Conteudo do Main/Section */
+
+section {
+    min-height: 100vh;
+    background: var(--branco);
+    position: relative;
+    display: grid;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 0;
+    z-index: 1;
+}
+
+section>p, section>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: clamp(1.2rem, 4vw, 1.7rem);
+    z-index: 1;
+    /* padding: clamp(0.25em, 7vw, 2em); */
+    position: relative;
+    margin: 0;
+}
+
+section>p::before, section>div::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--branco);
+    opacity: 0.66;
+}
+
+section:nth-of-type(2n)>p::before, section:nth-of-type(2n)>div::before {
+    background: var(--preto);
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: clamp(30rem, 40vw, 70rem);
+    background-attachment: fixed;
+}
+
+section:nth-of-type(2n) {
+    background: var(--preto);
+    justify-content: flex-start;
+    color: var(--branco);
+}
+
+h3 {
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.btn-primary {
+    color:black;
+    border-color: black;
+    background-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border-color: black;
+    transition: .3s ease-in-out;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0.5rem 0.075rem white;
+    border-color: transparent;
+}
+
+.btn-primary:active {
+    background-color: var(--vermelho);
+    outline: none;
+    box-shadow: none !important;
+}
+
+.col-form-label {
+    font-size: 20px;
+    width: auto;
+}
+
+.form-label {
+    font-size: 20px;
+    width: auto;
+}
+
+.col-md-12 lista-continentes {
+    padding-right: 10px;
+}
+
+.accordion-button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+@media (min-width: 600px) {
+    section {
+        padding: clamp(1rem, 25vw, 10rem);
+    }
+    section>p, section>div {
+        max-width: 30ch;
+        width: unset;
+        height: unset;
+    }
+}
