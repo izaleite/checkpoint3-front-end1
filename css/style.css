@@ -1,6 +1,5 @@
 /*  CSS do HEADER */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
 * {
     margin: 0;
@@ -48,37 +47,84 @@ body {
 
 /*  CSS do Conteudo do Main/Section */
 
-
-
 section {
     position: relative;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 0;
-  }
-  
-  
-  .section-one {
+    justify-items: flex-end;
+}
+
+section, p {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 23px;
+    padding-right: 5px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 500px;
+    display: flex;
+}
+
+p{
+    margin: 0 15px;
+   text-transform: uppercase;
+}
+
+
+.section-one {
     background-image: url("../images/Africa/pexels-git-stephen-gitau-1670732.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  .section-two {
+    opacity: 0.8;
+}
+
+.section-two {
     background-image: url("../images/Asia/pexels-iconcom-733071.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  .section-three {
+    opacity: 0.8;
+}
+
+.section-three {
     background-image: url("../images/Au-NZ/pexels-jess-bailey-designs-749564.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    opacity: 0.8;
+}
+
+.section-fourth  {
+    background-image: url("/images/Middle-East/pexels-boris-ulzibat-3793462.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.section-fifth   {
+    background-image: url("/images/North-America/pexels-pixabay-417054.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.section-fifth   {
+    background-image: url("/images/South-America/pexels-diego-rezende-3672776.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
