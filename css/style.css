@@ -72,10 +72,15 @@ section, p {
 p {
     margin: 0 15px;
     text-transform: uppercase;
+
+    color: #f8f9fa;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 50px;
 }
 
 .section-one {
-    background-image: url("../images/Africa/pexels-git-stephen-gitau-1670732.jpg");
+    background-image: url("../images/South-America/pexels-diego-rezende-3672776.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,13 +89,15 @@ p {
 }
 
 .section-two {
-    background-image: url("../images/Asia/pexels-iconcom-733071.jpg");
+    background-image: url("../images/Middle-East/pexels-boris-ulzibat-3793462.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
 }
+
+
 
 .section-three {
     background-image: url("../images/Au-NZ/pexels-jess-bailey-designs-749564.jpg");
@@ -102,7 +109,7 @@ p {
 }
 
 .section-fourth {
-    background-image: url("../images/Middle-East/pexels-boris-ulzibat-3793462.jpg");
+    background-image: url("../images/Asia/pexels-pixabay-235648.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,15 +119,6 @@ p {
 
 .section-fifth {
     background-image: url("../images/North-America/pexels-pixabay-417054.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-}
-
-.section-fifth {
-    background-image: url("../images/South-America/pexels-diego-rezende-3672776.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
