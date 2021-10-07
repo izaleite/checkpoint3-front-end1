@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Página tipos css -->
+    <link rel="stylesheet" href="../css/destinos.css">
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./img/icon.ico">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <title> .: Destinos :.</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar sticky-top  navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://izaleite.github.io/checkpoint3-front-end1/">
+                    <img src="/img/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    .: Pão de Queijo ou de Açúcar :.
+                </a>
+
+
+
+            </div>
+        </nav>
+
+
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://izaleite.github.io/checkpoint3-front-end1/">
+                    <img src="/img/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    .: Pão de Queijo ou de Açúcar :.
+                </a> <!-- navbar-title -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Pão de Queijo ou de Açúcar</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Para onde você vai?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form> <!-- Search -->
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://izaleite.github.io/checkpoint3-front-end1/">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./../destinos.html">Destinos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./../promocoes.html">Promoções</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./../sobre.html">Sobre
+                                    Nós</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./../depoimentos.html">Depoimentos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./../login.html">Login</a>
+                            </li>
+
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+    </header> <!-- Header Igual para Todas as Páginas -->
+
+    <main>
+
+        <div class="banner-carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="https://cdn.stocksnap.io/img-thumbs/960w/woman-sitting_VWDZANCNZJ.jpg" alt="...">
+
+                        <div class="carousel-caption d-md-block">
+                            <h2>BONS PREÇOS</h2>
+                            <p>Nossa equipe está pronto para te atender.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=821&q=80"
+                            alt="...">
+
+                        <div class="carousel-caption d-md-block">
+                            <h2>SEM TAXAS DE RESERVA</h2>
+                            <p>Tenha histórias para contar, não coisas para mostrar.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://c.pxhere.com/photos/2b/a3/sunset_tree_water_silhouette_nature_landscape_sky_dusk-628743.jpg!d"
+                            alt="...">
+
+                        <div class="carousel-caption d-md-block">
+                            <h2>CANCELAMENTOS GRÁTIS</h2>
+                            <p>Viajar não é luxo, é necessidade.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.stocksnap.io/img-thumbs/960w/Titlis-Alps_RSJHQZIRHO.jpg" alt="...">
+
+                        <div class="carousel-caption d-md-block">
+                            <h2>50% DE DESCONTO</h2>
+                            <p>Entre todos os livros do mundo, as melhores histórias estão entre as páginas de um
+                                passaporte.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1502920514313-52581002a659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=867&q=80"
+                            alt="...">
+
+                        <div class="carousel-caption d-md-block">
+                            <h2>PAGUE EM ATÉ 12x</h2>
+                            <p>Viajar não é despesa, é investimento.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+                            alt="...">
+
+                        <div class="carousel-caption d-md-block">
+                            <h2>NÃO PRECISA DE MILHAS</h2>
+                            <p>Viajar é criar memórias pelo mundo.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Escolha seu Destino -->
+        <div id="travel">
+            <div class="container-imgs">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">escolha seu destino</h3>
+                    </div>
+
+                    <div class="col-md-4 continent-box dev ">
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#africa">
+                            <img title="Clique aqui e saiba mais sobre a Africa"
+                                src="https://cdn.stocksnap.io/img-thumbs/960w/elephants-africa_0MHZYMSGOE.jpg"
+                                class="img-fluid" alt="africa">
+                        </button>
+                    </div> <!-- africa -->
+
+
+                    <div class="col-md-4 continent-box dsg">
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#americaNorte">
+                            <img title="Clique aqui e saiba mais sobre a America do Norte"
+                                src="https://get.pxhere.com/photo/landscape-sea-water-nature-horizon-light-sky-bridge-night-lake-building-dawn-san-francisco-suspension-bridge-dusk-evening-line-reflection-usa-america-california-places-of-interest-rope-bridge-north-america-bridge-construction-depend-cable-stayed-bridge-carol-m-highsmith-bridge-element-frisco-oakland-bay-bridge-nonbuilding-structure-495232.jpg"
+                                class="img-fluid" alt="America do Norte">
+                        </button>
+                    </div> <!-- América do Norte -->
+
+
+                    <div class="col-md-4 continent-box seo">
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#americaSul">
+                            <img title="Clique aqui e saiba mais sobre a America do Sul"
+                                src="https://images.unsplash.com/photo-1583275479278-7bc72a16c2ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80"
+                                class="img-fluid" alt="America do Sul">
+                        </button>
+                    </div> <!-- América do Sul -->
+
+
+                    <div class="col-md-4 continent-box dev">
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#europa">
+                            <img title="Clique aqui e saiba mais sobre a Europa"
+                                src="https://get.pxhere.com/photo/architecture-bridge-skyline-clock-building-palace-city-urban-river-cityscape-travel-dusk-europe-evening-reflection-tower-landmark-tourism-waterway-outdoors-uk-england-capital-london-parliament-houses-british-culture-history-english-britain-government-united-kingdom-historical-westminster-thames-human-settlement-ben-ben-772846.jpg"
+                                class="img-fluid" alt="Europa">
+                        </button>
+                    </div> <!-- Europa -->
+
+                    <div class="col-md-4 continent-box dsg">
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#asia">
+                            <img title="Clique aqui e saiba mais sobre a Ásia"
+                                src="https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=842&q=80"
+                                class="img-fluid" alt="Asia">
+                        </button>
+                    </div> <!-- Ásia -->
+
+                    <div class="col-md-4 continent-box seo">
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#antartida">
+                            <img title="Clique aqui e saiba mais sobre a Antartida"
+                                src="https://get.pxhere.com/photo/nature-wilderness-cold-bird-cute-isolated-wildlife-wild-ice-beak-natural-fauna-penguin-life-polar-antarctic-animals-vertebrate-penguins-antarctica-emperor-flightless-bird-king-penguin-940570.jpg"
+                                class="img-fluid" alt="Antartida">
+                        </button>
+                    </div> <!-- Antártida  -->
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="africa" tabindex="-1" role="dialog" aria-labelledby="africa" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content p-1">
+                    <div class="modal-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-5 py-4">
+                        <p>Na <strong>África do Sul</strong> pontos turísticos não faltam. E vão muito além da beleza
+                            natural de um país
+                            encravado em um continente cheio de vida selvagem e paisagens fantásticas. As cidades do
+                            país também apresentam uma atividade turística bastante intensa, com hotéis
+                            excelentes e áreas comerciais onde você poderá fazer compras, além de praias muito
+                            agradáveis e vinhos respeitados no mundo inteiro.</p>
+
+
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=868&q=80"
+                            alt="...">
+
+                        <p>Se você veio procurar na África do Sul pontos turísticos realmente fascinantes, saiba que deu
+                            sorte. E para permitir que você os encontre facilmente em sua viagem para esse país, fizemos
+                            uma <strong>lista com atrações turísticas</strong> da África do Sul que mais admiramos.</p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Parque Nacional Kruger</li>
+                            <li class="list-group-item">Reserva de Hluhluwe-Umfolozi</li>
+                            <li class="list-group-item">Vinhedos da Cidade do Cabo</li>
+                            <li class="list-group-item">Orla de Victoria e Alfred</li>
+                            <li class="list-group-item">Cânion do Rio Blyde</li>
+                            <li class="list-group-item">Knysna</li>
+                            <li class="list-group-item">Parque Nacional dos Elefantes de Addo</li>
+                            <li class="list-group-item">Table Mountain</li>
+                            <li class="list-group-item">Anfiteatro das Montanhas Drakensberg</li>
+                            <li class="list-group-item">Joanesburgo</li>
+                        </ul>
+
+
+
+                        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=731&q=80"
+                            alt="...">
+
+                        <p>Animado para conhecer a <strong>África do Sul</strong> e pontos turísticos tão diversificados
+                            como estes?
+                            <strong>Informações não faltam em nosso site. Pesquise o quanto quiser e Descubra o
+                                Mundo!</strong>
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div> <!-- africa -->
+
+        <div class="modal fade" id="americaNorte" tabindex="-1" role="dialog" aria-labelledby="americaNorte"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content p-1">
+                    <div class="modal-header">
+                        <h5 class="modal-title">América do Norte</h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-5 py-4">
+                        <p>Quais são os <strong>melhores destinos na América do Norte</strong>? Já pensou em conhecer
+                            algum destino? Trouxemos o melhor de cada país para você fazer uma viagem dos sonhos. Quem
+                            nunca desejou fazer umas comprinhas nos Estados Unidos? E curtir uma das praias paradisíacas
+                            do México? Ou então esquiar no Canadá?</p>
+
+                        <img src="https://cdn.stocksnap.io/img-thumbs/960w/street-sign_BFO6I0XZMH.jpg" alt="...">
+
+                        <p>A América do Norte reúne países com <strong>características bem distintas e com muita
+                                diversidade cultural</strong> . Conheça o que os destinos na América do Norte têm de
+                            melhor para te oferecer e comece a fazer suas malas. A América do Norte é formada por três
+                            países: México, Estados Unidos e Canadá. Cada país tem sua especialidade e cultura própria,
+                            e é isso que faz cada um deles valerem a pena.</p>
+
+                        <p>Separamos <strong>5 cidades com atrações distintas e empolgantes</strong> para você conhecer
+                            e se apaixonar pelos Estados Unidos Mexicanos.</p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cidade do México</li>
+                            <li class="list-group-item">Cancún</li>
+                            <li class="list-group-item">Acapulco</li>
+                            <li class="list-group-item">Puerto Vallarta</li>
+                            <li class="list-group-item">Tijuana</li>
+                        </ul>
+
+                        <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+                            alt="...">
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Miami</li>
+                            <li class="list-group-item">Las Vegas</li>
+                            <li class="list-group-item">Nova York</li>
+                            <li class="list-group-item">Los Angeles</li>
+                            <li class="list-group-item">Chicago</li>
+                        </ul>
+
+                        <p>Animado para conhecer a <strong>América do Norte</strong> e pontos turísticos tão
+                            diversificados como estes?
+                            <strong>Informações não faltam em nosso site. Pesquise o quanto quiser e Descubra o
+                                Mundo!</strong>
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div> <!-- América do Norte -->
+
+        <div class="modal fade" id="americaSul" tabindex="-1" role="dialog" aria-labelledby="americaSul"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content p-1">
+                    <div class="modal-header">
+                        <h5 class="modal-title">América do Sul</h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-5 py-4">
+                        <p>As Cataratas do Iguaçu são <strong>as maiores do mundo</strong> em volume de água, e atraem
+                            visitantes do
+                            planeta inteiro em busca de suas paisagens que, muitas vezes, parecem até bonitas demais
+                            para serem verdade.</p>
+
+                        <p>Um dos <strong>principais cartões-postais brasileiros</strong>, as quedas se sucedem no rio
+                            Iguaçu, cercadas
+                            pela mata atlântica, bem na divisa com a Argentina, o que permite que o viajante explore as
+                            atrações dos dois lados da fronteira! </p>
+
+                        <img src="https://get.pxhere.com/photo/water-waterfall-wild-spray-body-of-water-wasserfall-argentina-iguacu-brazil-cataratas-border-water-feature-watercourse-cases-unesco-world-heritage-foz-do-igua-u-1003210.jpg"
+                            alt="...">
+
+                        <p> Se você já está se animando com a dobradinha no roteiro, este é o artigo certo para você!
+                            Reunimos todas as informações que você precisa para planejar a sua viagem, veja só! Para lhe
+                            ajudar, separamos os pontos turísticos que não podem ficar de fora do seu roteiro. Vem ver!
+
+                        </p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cartagena, Colômbia</li>
+                            <li class="list-group-item">Los Roques, Venezuela</li>
+                            <li class="list-group-item">Salar de Uyuni, Bolívia</li>
+                            <li class="list-group-item">Deserto do Atacama, Chile</li>
+                            <li class="list-group-item">Arquipélago de Galápagos, Equador</li>
+                            <li class="list-group-item">Machu Picchu, Peru</li>
+                            <li class="list-group-item">Ushuaia, Argentina</li>
+                        </ul>
+
+                        <img src="https://images.unsplash.com/photo-1619038779484-a27362fb82cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80"
+                            alt="...">
+
+                        <p>Animado para conhecer a <strong>América do Sul</strong> e pontos turísticos tão
+                            diversificados como estes?
+                            <strong>Informações não faltam em nosso site. Pesquise o quanto quiser e Descubra o
+                                Mundo!</strong>
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div> <!-- América do Sul -->
+
+        <div class="modal fade" id="europa" tabindex="-1" role="dialog" aria-labelledby="europa" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content p-1">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Europa</h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-5 py-4">
+                        <p>Sem dúvidas, a Europa possui muitos países com pontos turísticos incríveis: <strong>Itália,
+                                França,
+                                Espanha, Holanda, Alemanha, Inglaterra e Portugal</strong>, e para ajudar você a
+                            conhecer um
+                            pouquinho de cada lugar, listamos os 7 pontos turísticos da Europa que são parada
+                            obrigatória para qualquer turista que está planejando passar por lá.</p>
+
+                        <img src="https://images.unsplash.com/photo-1581289068946-ba5dbd4f7911?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="...">
+
+                        <p>Ficou curioso? Confira abaixo a lista com os lugares que, com certeza, valem a pena incluir
+                            no seu roteiro de viagem:</p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Itália: Coliseu de Roma</li>
+                            <li class="list-group-item">França: Torre Eiffel em Paris</li>
+                            <li class="list-group-item">Espanha: Sagrada Família em Barcelona</li>
+                            <li class="list-group-item">Inglaterra: Torre Big Ben de Londres</li>
+                            <li class="list-group-item">Portugal: Torre de Belém em Lisboa</li>
+                            <li class="list-group-item">Alemanha: Portão de Brandemburgo em Berlim</li>
+                            <li class="list-group-item">Holanda: Museumplein em Amsterdã</li>
+                        </ul>
+
+                        <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+                            alt="...">
+
+                        <p>Animado para conhecer a <strong>Europa</strong> e pontos turísticos tão diversificados como
+                            estes?
+                            <strong>Informações não faltam em nosso site. Pesquise o quanto quiser e Descubra o
+                                Mundo!</strong>
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div> <!-- Europa -->
+
+        <div class="modal fade" id="asia" tabindex="-1" role="dialog" aria-labelledby="asia" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content p-1">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Ásia</h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-5 py-4">
+                        <p>A Ásia é um continente vasto, cuja área corresponde a cerca de um terço de todas as terras
+                            emersas do mundo. A Ásia é <strong>sinônimo de imensidão e diversidade</strong>. A região é
+                            enorme,
+                            apresentando destinos entre os mais incríveis de todo o mundo, com paisagens de tirar o
+                            fôlego, praias e mares de beleza ímpar, rica cultura, templos milenares, inabalável culto à
+                            religião, ilhas paradisíacas, gastronomia única e exótica.</p>
+
+                        <img src="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                            alt="...">
+
+                        <p>O que não falta são opções de turismo na Ásia e atrações surpreendentes para você conhecer.
+                            Se está pensando em viajar e conhecer alguns destinos asiáticos, saiba que vai viver uma
+                            experiência muito rica e inesquecível. </p>
+
+                        <p>Cada país guarda suas surpresas. <strong>Vamos te ajudar a descobrir um pouco mais sobre
+                                alguns deles</strong></p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Bali (Indonésia)</li>
+                            <li class="list-group-item">Bangkok (Tailândia)</li>
+                            <li class="list-group-item">Tóquio (Japão)</li>
+                            <li class="list-group-item">Istambul (Turquia)</li>
+                            <li class="list-group-item">Phuket (Tailândia)</li>
+                            <li class="list-group-item">Pequim (China)</li>
+                            <li class="list-group-item">Dubai (Emirados Árabes)</li>
+                            <li class="list-group-item">Kuala Lumpur (Malásia)</li>
+                            <li class="list-group-item">Ilhas Maldivas</li>
+                        </ul>
+
+                        <img src="https://images.unsplash.com/photo-1505069446780-4ef442b5207f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+                            alt="...">
+
+                        <p>Animado para conhecer a <strong>Ásia</strong> e pontos turísticos tão diversificados como
+                            estes?
+                            <strong>Informações não faltam em nosso site. Pesquise o quanto quiser e Descubra o
+                                Mundo!</strong>
+                        </p>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div> <!-- Ásia -->
+
+        <div class="modal fade" id="antartida" tabindex="-1" role="dialog" aria-labelledby="antartida"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content p-1">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Antártida </h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-5 py-4">
+                        <p>Por muitos e muitos anos as belezas naturais e geladas da Antártida (e suas condições
+                            climáticas imprevisíveis) foram exclusividade de exploradores e navegadores. Hoje, no
+                            entanto, icebergs, colônias de pinguins-imperador e enormes focas-elefante estão ao alcance
+                            dos turistas com espírito aventureiro.</p>
+
+                        <img src="https://images.unsplash.com/photo-1565856051705-0bf22e6ca457?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=898&q=80"
+                            alt="...">
+
+                        <p>As agências que trabalham com esse tipo de viagem fazem suas expedições de novembro a abril,
+                            quando as temperaturas são mais adequadas para o corpo humano. E a maioria dos pacotes de
+                            viagem para a Antártida possui, no roteiro, passagens pela Ilha Geórgia do Sul, antigo porto
+                            de baleeiros escandinavos, com suas impressionantes cadeias de montanhas, e as disputadas
+                            Ilhas Malvinas.</p>
+
+
+                        <p>Existem, também, agências que realizam acampamentos em solo gelado. Mas a notícia não muito
+                            boa que é que não é possível ficar mais do que uma noite no local devido às condições
+                            climáticas. Mesmo assim, para o turista que está em busca de aventura, a experiência é
+                            gratificante..</p>
+
+                        <img src="https://images.unsplash.com/photo-1530515939918-4fd73cd8cd9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                            alt="...">
+
+                        <p>Outra atração do extremo sul do planeta é observar a vida local – como as focas, os pinguins
+                            e as aves marinhas que se reproduzem em meados de abril.Apesar de ser um destino possível, a
+                            Antártida não é para turistas de primeira viagem.</p>
+
+                        <p>Animado para conhecer a <strong>Antártida </strong> e pontos turísticos tão diversificados
+                            como
+                            estes?
+                            <strong>Informações não faltam em nosso site. Pesquise o quanto quiser e Descubra o
+                                Mundo!</strong>
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Antártida  -->
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

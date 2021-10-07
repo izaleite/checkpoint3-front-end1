@@ -1,0 +1,127 @@
+/*  CSS do HEADER */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.d-flex input {
+    margin: 0 8px;
+}
+
+.d-flex button {
+    margin: 0 8px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.d-flex button:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+    transition: .5s ease-in;
+}
+
+.offcanvas-body a {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.offcanvas-body a:hover {
+    opacity: .8;
+}
+
+.offcanvas-header h {
+    user-select: none;
+}
+
+
+/*  CSS do HEADER */
+
+
+
+
+.banner-carousel {
+    height: 95vh;
+    width: 100%;
+}
+
+.banner-carousel h2 {
+    color: #000000;
+    font-weight: 800;
+}
+
+.banner-carousel p {
+    color: #000000;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.carousel-item img {
+    height: 95vh;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.banner-parallax {
+    height: 100vh;
+    width: 100%;
+}
+
+.container-imgs {
+    padding: 40px 100px;
+}
+
+.container-imgs img {
+    object-fit: cover;
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+}
+
+.container-imgs img:hover {
+    opacity: .8;
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
+
+.container-imgs h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+}
+
+.continent-box {
+    margin-bottom: 30px;
+}
+
+.container-imgs btn-custom {
+    background-color: white;
+    outline: none;
+}
+
+.modal-body img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    margin: 5px 0;
+}
+
+.modal-body p {
+    text-align: justify;
+    font-weight: 300;
+}
