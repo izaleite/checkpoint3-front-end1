@@ -128,3 +128,19 @@ p{
     background-size: cover;
     opacity: 0.8;
 }
+
+.section-one a {
+    color: #f8f9fa;
+    background-color: #000000;
+    border-color: #f8f9fa;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.section-one a:hover {
+    color: #000000;
+    background-color: #f8f9fa;
+    border-color: #000000;
+
+}

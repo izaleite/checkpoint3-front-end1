@@ -89,6 +89,12 @@ body {
     border-color: #f8f9fa;
 }
 
+.carousel-right button:hover {
+    color: #000000;
+    background-color: #f8f9fa;
+    border-color: #000000;
+}
+
 .section-two {
     padding: 0 22px;
     margin-bottom: 20px;
@@ -124,3 +130,4 @@ body {
     height: 200px;
     object-fit: cover;
 }
+
