@@ -107,18 +107,25 @@ section:nth-of-type(2n) {
     color: var(--branco);
 }
 
+h3 {
+    text-transform: uppercase;
+    user-select: none;
+}
+
 .btn-primary {
-    border-color: transparent;
+    color:black;
+    border-color: black;
+    background-color: transparent;
 }
 
 .btn-primary:hover {
-    background-color: var(--vermelho-escuro);
-    border-color: white;
+    background-color: black;
+    border-color: black;
+    transition: .3s ease-in-out;
 }
 
 .btn-primary:focus {
-    background-color: var(--vermelho-escuro);
-    box-shadow: 0 0 0 2px white, 0 0 0.5rem 0.075rem rgb(13, 121, 148);
+    box-shadow: 0 0 0 2px white, 0 0 0.5rem 0.075rem white;
     border-color: transparent;
 }
 
@@ -143,14 +150,16 @@ section:nth-of-type(2n) {
 }
 
 .accordion-button {
-    background-color: var(--preto);
-    color: var(--branco);
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: var(--preto);
-    color: var(--branco);
+    background-color: #000000;
+    color: #ffffff;
 }
+
+
 
 @media (min-width: 600px) {
     section {
