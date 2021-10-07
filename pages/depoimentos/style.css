@@ -47,8 +47,6 @@ body {
 
 /*  CSS do Conteudo do Main/Section */
 
-/* Time */
-
 .container h3 {
     text-align: center;
     font-weight: 600;
@@ -63,21 +61,28 @@ body {
 }
 
 .card {
+    object-fit: cover;
     margin: 10px;
+    transform: scale(0.9);
 }
 
-.card {
+.card:hover {
     object-fit: cover;
+    margin: 10px;
+    transform: scale(0.5);
+    transform: scale(1.03);
+    transition: .3s ease-in;
+    box-shadow: 10px 5px 5px #000000d2;
 }
+
 
 .card img:hover {
     opacity: .7;
     cursor: pointer;
-    transform: scale(1.03);
+  
     transition: .3s ease-in;
 }
 
 .card h5, p {
     user-select: none;
 }
-
